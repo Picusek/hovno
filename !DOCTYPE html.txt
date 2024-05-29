@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrari</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #cc0000;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            max-width: 300px;
+            margin: 10px;
+            border: 5px solid #cc0000;
+        }
+        .model-description {
+            text-align: center;
+            margin-top: -10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ferrari</h1>
+    </header>
+    <section>
+        <h2>Historie Ferrari</h2>
+        <p>Ferrari je italská automobilová značka, kterou v roce 1939 založil Enzo Ferrari. Je známá svými luxusními sportovními vozy a dlouhou historií v motorsportu, zejména v závodech Formule 1.</p>
+    </section>
+    <section>
+        <h2>Modely Ferrari</h2>
+        <p>Ferrari vyrábí řadu ikonických modelů, které jsou obdivovány po celém světě pro jejich výkon, design a inovace.</p>
+    </section>
+    <section>
+        <h2>Galerie</h2>
+        <div class="gallery">
+            <div>
+                <img src="https://example.com/ferrari1.jpg" alt="Ferrari Model 1">
+                <div class="model-description">Ferrari Model 1</div>
+            </div>
+            <div>
+                <img src="https://example.com/ferrari2.jpg" alt="Ferrari Model 2">
+                <div class="model-description">Ferrari Model 2</div>
+            </div>
+            <div>
+                <img src="https://example.com/ferrari3.jpg" alt="Ferrari Model 3">
+                <div class="model-description">Ferrari Model 3</div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
